@@ -17,7 +17,7 @@ public:
         cout << "Constructor Called !!" << endl;
     }
 
-    Student(const Student& other){
+    Student(const Student &other){
         firstName = new string(*other.firstName);
         lastName = other.lastName;
         rollNo = new int(*other.rollNo);
